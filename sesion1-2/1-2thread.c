@@ -13,7 +13,6 @@ void* ThreadProc(void* arg)
 	for (i = 0; i < TIMES; i++)
 	{
 		printf("Thread %d, message %d\n", n, i);
-		sleep(1);  // Sleep 1 second
 	}
 	printf("Thread %d finished.\n", n);
 	return NULL;

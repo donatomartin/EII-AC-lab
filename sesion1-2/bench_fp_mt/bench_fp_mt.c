@@ -20,8 +20,7 @@ int main(int argc, char* argv[])
 	printf("Running task    : ");
 	fflush(stdout);
 
-	// TODO: if (...)
-	#error *** Complete ***
+	if (clock_gettime(CLOCK_REALTIME, &tStart) != 0)
 	{
 		perror("clock_gettime");
 		exit(EXIT_FAILURE);
@@ -41,10 +40,7 @@ int main(int argc, char* argv[])
 	for (i = 0; i < NUM_THREADS; i++)
 		pthread_join(Threads[i], NULL);
 
-	// Finish measuring time
-	// TODO: if (...)
-	#error *** Complete ***
-	if (<<Complete>>)
+	if (clock_gettime(CLOCK_REALTIME, &tEnd) != 0)
 	{
 		perror("clock_gettime");
 		exit(EXIT_FAILURE);
@@ -52,8 +48,8 @@ int main(int argc, char* argv[])
 
 	printf("Finished\n");
 
-	// Show the elapsed time
-	#error *** Complete ***
+	dElapsedTimeS = (tEnd.tv_sec - tStart.tv_sec);
+	dElapsedTimeS += (tEnd.tv_nsec - tStart.tv_nsec) / 1e+9;
 	printf("Elapsed time    : %f s.\n", dElapsedTimeS);
 
 	return 0;
