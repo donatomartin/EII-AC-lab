@@ -1,0 +1,1000 @@
+  274  nvim
+  275  clear
+  276  nvim 1-1hello.c
+  277  gcc -c 1-1hello.c 
+  278  ls *.o
+  279  ls -a
+  280  clear
+  281  gcc 1-1hello.o -o 1-1hello
+  282  ./1-1hello
+  283  clear
+  284  nvim 1-1circle.c
+  285  nvim 1-1circle.h
+  286  nvim 1-1program.c
+  287  gcc -c 1-1circle.c
+  288  gcc -c 1-1circle.c 1-1program.c 
+  289  gcc 1-1circle.o 1-1program.o -o 1-1program
+  290  ./1-1program
+  291  man 3 printf
+  292  man 3 sqrt
+  293  nvim 1-1program
+  294  nvim 1-1program.c
+  295  nvim 1-1root.c
+  296  gcc 1-1root.o -o 1-1root
+  297  gcc 1-1root.c
+  298  gcc 1-1root.o -o 1-1root
+  299  ls
+  300  ls -la
+  301  gcc -c 1-1root.c
+  302  gcc 1-1root.o -o 1-1root
+  303  nvim 1-1root.c
+  304  gcc -c 1-1root.c
+  305  gcc 1-1root.o -o 1-1root
+  306  nvim 1-1root.c
+  307  man 3 sqrt
+  308  nvim 1-1root.c
+  309  gcc -c 1-1root.c
+  310  gcc 1-1root.o -c 1-1root
+  311  gcc 1-1root.o -o 1-1root
+  312  man 3 sqrt
+  313  gcc 1-1root.o -o 1-1root -lm
+  314  ./1-1root
+  315  man 3 sqrt
+  316  clear
+  317  tmux
+  318  clear
+  319  nvim 1-1pointer2.c
+  320  nvim 1-1pointer1.c
+  321  cp 1-1pointer1.c 1-1pointer2.c
+  322  nvim 1-1pointer2.c
+  323  ls
+  324  clear
+  325  nvim 1-1pointer2.c
+  326  gcc 1-1pointer2.c 1-1pointer2
+  327  nvim 1-1pointer2.c
+  328  clear
+  329  gcc 1-1pointer2.c 1-1pointer2
+  330  clear
+  331  nvim 1-1pointer2.c 
+  332  gcc 1-1pointer2.c 1-1pointer2
+  333  clear
+  334  nvim 1-1pointer2.c 
+  335  clear
+  336  gcc 1-1pointer2.c 1-1pointer2
+  337  nvim
+  338  nvim 1-1pointer2.c 
+  339  gcc 1-1pointer2.c 1-1pointer2
+  340  nvim
+  341  nvim 1-1pointer2.c 
+  342  gcc 1-1pointer2.c 1-1pointer2
+  343  nvim 1-1pointer2.c 
+  344  gcc 1-1pointer2.c 1-1pointer2
+  345  nvim
+  346  gcc 1-1pointer2.c 1-1pointer2
+  347  nvim 1-1pointer2.c 
+  348  gcc 1-1pointer2.c 1-1pointer2
+  349  clear
+  350  nvim 1-1pointer2.c 
+  351  gcc 1-1pointer2.c 1-1pointer2
+  352  nvim 1-1pointer2.c 
+  353  gcc 1-1pointer2.c 1-1pointer2
+  354  clear
+  355  nvim 1-1pointer2.c 
+  356  gcc 1-1pointer2.c 1-1pointer2
+  357  clear
+  358  nvim 1-1pointer2.c 
+  359  gcc 1-1pointer2.c 1-1pointer2
+  360  gcc -c 1-1pointer.c
+  361  gcc -c 1-1pointer2.c
+  362  ls
+  363  gcc -c 1-1pointer2.c
+  364  rm 1-1pointer2.o
+  365  ls
+  366  gcc -c 1-1pointer2.c
+  367  ls
+  368  gcc 1-1pointer2.o -o 1-1pointer2
+  369  ./1-1pointer2
+  370  gcc 1-1pointer2.c -o 1-1pointer2
+  371  ./1-1pointer2
+  372  clear
+  373  nvim 1-1pointer2.c
+  374  gcc -c 1-1pointer2.c
+  375  nvim 1-1pointer2.c
+  376  gcc -c 1-1pointer2.c
+  377  gcc 1-1pointer2.o -o 1-1pointer2
+  378  ./1-1pointer2
+  379  clear
+  380  nvim 1-1pointer2.c
+  381  gcc -c 1-1pointer2.c
+  382  nvim 1-1pointer2.c
+  383  gcc -c 1-1pointer2.c
+  384  nvim 1-1pointer2.c
+  385  gcc -c 1-1pointer2.c
+  386  gcc 1-1pointer2.o -o 1-1pointer2
+  387  ./1-1pointer2
+  388  nvim 1-1pointer2.c
+  389  gcc -c 1-1pointer2.c
+  390  nvim 1-1pointer2.c
+  391  gcc -c 1-1pointer2.c
+  392  gcc 1-1pointer2.o -o 1-1pointer2
+  393  ./1-1pointer2
+  394  clear
+  395  nvim 1-1pointer2.c
+  396  cp 1-1pointer2.c 1-1pointer3.c
+  397  nvim 1-1pointer3.c
+  398  rm 1-1pointer3.c
+  399  clear
+  400  nvim 1-1pointer2.c
+  401  cp 1-1pointer2.c
+  402  cp 1-1pointer2.c 1-1pointer3.c
+  403  nvim 1-1pointer3.c
+  404  gcc -c 1-1pointer3.c
+  405  nvim 1-1pointer3.
+  406  nvim 1-1pointer3.c
+  407  gcc -c 1-1pointer3.c
+  408  nvim 1-1pointer3.c
+  409  gcc -c 1-1pointer3.c
+  410  gcc 1-1pointer3.o -o 1-1pointer3
+  411  ./1-1pointer3
+  412  clear
+  413  nvim 1-1pointer3.c
+  414  clear
+  415  tmux
+  416  clear
+  417  sudo apt install neovim
+  418  nmcli c
+  419  nmcli
+  420  vi
+  421  clear
+  422  vim
+  423  clear
+  424  tmux
+  425  clear
+  426  tmux -l
+  427  clear
+  428  clear
+  429  gcc -c 1-1pointer3.c
+  430  gcc 1-1pointer3.o -o 1-1pointer3
+  431  ./1-1pointer3
+  432  clear
+  433  gcc 1-1pointer2.c -o 1-1pointer2
+  434  ./1-1pointer2
+  435  gcc -c 1-1pointer3.c
+  436  clear
+  437  gcc 1-1pointer3.c -o 1-1pointer3
+  438  ./1-1pointer3
+  439  clear
+  440  rm 1-1pointer3.c
+  441  rm 1-1pointer3
+  442  rm 1-1pointer3.o
+  443  clear
+  444  gcc 1-1person.c -o 1-1person
+  445  ./1-1person
+  446  gcc 1-1person.c -o 1-1person
+  447  ./1-1person
+  448  clear
+  449  exit
+  450  ls
+  451  ./bench_fp
+  452  clear
+  453  ls
+  454  vim bench_fp
+  455  clear
+  456  vim bench_fp.c
+  457  clear
+  458  make
+  459  clear
+  460  ls
+  461  cd ..
+  462  clear
+  463  ls
+  464  cd bench_fp_mt
+  465  clear
+  466  ls
+  467  vim bench_fp_mt
+  468  vim bench_fp_mt.c 
+  469  clear
+  470  ls
+  471  cd ..
+  472  clear
+  473  ls
+  474  vim 1-2thread.c
+  475  ls
+  476  clear
+  477  gcc 1-2thread.c -o 1-2thread -lpthread
+  478  ./1-2thread
+  479  vim 1-2thread.c
+  480  gcc 1-2thread.c -o 1-2thread -lpthread
+  481  clear
+  482  ls
+  483  ./1-2thread
+  484  1-2thread
+  485  clear
+  486  ./1-2thread
+  487  clear
+  488  s
+  489  clear
+  490  ./1-2thread
+  491  clear
+  492  ls
+  493  cd bench_fp_mt
+  494  clear
+  495  vim bench_fp_mt.c 
+  496  clear
+  497  git rebase -i
+  498  clear
+  499  gs
+  500  cd ..
+  501  clear
+  502  ls
+  503  clear
+  504  git add *
+  505  celar
+  506  clear
+  507  git status
+  508  git diff HEAD
+  509  clear
+  510  git status
+  511  clear
+  512  cd bench_fp_mt
+  513  clear
+  514  ls
+  515  make
+  516  clear
+  517  ls
+  518  ./bench_fp_mt
+  519  clear
+  520  git status
+  521  clear
+  522  git status
+  523  git diff
+  524  git add *
+  525  clear
+  526  ls
+  527  git commit -m "feat: modify first two benchmarks"
+  528  clear
+  529  git rebase -i --root
+  530  clear
+  531  git push --force
+  532  git push
+  533  git push --force
+  534  gs
+  535  git stat
+  536  git status
+  537  clear
+  538  ls
+  539  cd ..
+  540  clear
+  541  ls
+  542  clear
+  543  git status
+  544  clear
+  545  git push --force
+  546  clear
+  547  cd ..
+  548  clear
+  549  ls
+  550  cd sesion1-2
+  551  clear
+  552  ls
+  553  cd mencoder
+  554  clear
+  555  ls
+  556  ./x264
+  557  clear
+  558  time ./x264
+  559  git status
+  560  git add "*.xls"
+  561  git status
+  562  clear
+  563  git add *.mp4
+  564  git status
+  565  git restore "*"
+  566  git status
+  567  git reset bbb480.mp4
+  568  clear
+  569  git status
+  570  git add *.xls
+  571  clear
+  572  git status
+  573  git add ../tema1.xls 
+  574  git status
+  575  git commit -m "feat: include benchmark spreadsheet"
+  576  git push
+  577  clear
+  578  exit
+  579  htop
+  580  exit
+  581  ls
+  582  echo $shell
+  583  clear
+  584  echo $sh
+  585  echo $shell
+  586  clear
+  587  cd Ac
+  588  CLEAR
+  589  LS
+  590  cd ac
+  591  s
+  592  ls
+  593  cd AC
+  594  clear
+  595  ls
+  596  git log
+  597  clear
+  598  ls
+  599  clear
+  600  cd sesion1-2
+  601  clear
+  602  ls
+  603  tar -xvfz sesion1-2.tar.gz 
+  604  clear
+  605  man tar
+  606  tar -xvf sesion1-2.tar.gz 
+  607  clear
+  608  ls
+  609  ls sesion1-2
+  610  mv sesion1-2/* .
+  611  ls
+  612  rm sesion1-2
+  613  rm -rf sesion1-2
+  614  clear
+  615  ls
+  616  clear
+  617  ls
+  618  clearç
+  619  clear
+  620  gs
+  621  clear
+  622  cd ..
+  623  clear
+  624  git add *
+  625  clear
+  626  gs
+  627  git status
+  628  clear
+  629  cd sesion1-2
+  630  clear
+  631  ls
+  632  rm sesion1-2.tar.gz 
+  633  clear
+  634  git add *
+  635  clear
+  636  cd ..
+  637  clear
+  638  gs
+  639  git status
+  640  clear
+  641  git status
+  642  git add *
+  643  git s
+  644  git status
+  645  clear
+  646  ls
+  647  git commit -m "include session1-2 files"
+  648  clear
+  649  git push
+  650  clear
+  651  git status
+  652  clear
+  653  git push
+  654  git log
+  655  clear
+  656  git log
+  657  git rebase -i HEAD~2
+  658  clear
+  659  git config --global
+  660  git config --global user.name
+  661  git config --global user.mail
+  662  git config --global core.editor "vim"
+  663  clear
+  664  ls
+  665  clear
+  666  git rebase -i HEAD~4
+  667  git rebase -i HEAD~3
+  668  git rebase -i HEAD~2
+  669  clear
+  670  ls
+  671  git log
+  672  git rebase
+  673  git branch
+  674  clear
+  675  git branch
+  676  clear
+  677  ls
+  678  cd sesion1-2
+  679  clear
+  680  ls
+  681  nvim 1-2thread.c
+  682  ls
+  683  vim bench_fp.c
+  684  vim bench_fp
+  685  ls
+  686  ls -a
+  687  vim bench_fp/bench_fp.c 
+  688  cd bench_fp
+  689  clear
+  690  ls
+  691  nvim bench_fp.c 
+  692  clear
+  693  ls
+  694  vim Makefile 
+  695  make
+  696  clear
+  697  ls
+  698  ./bench_fp
+  699  1
+  700  clear
+  701  ./bench_fp
+  702  clear
+  703  ls
+  704  ./bench_fp
+  705  clear
+  706  vim Makefile 
+  707  htop
+  708  sudo apt install btop
+  709  btop
+  710  clear
+  711  btop
+  712  clear
+  713  atop
+  714  clear
+  715  sudo apt install htop
+  716  clear
+  717  htop
+  718  clearç
+  719  clear
+  720  ls
+  721  clear
+  722  nvim bench_fp.c
+  723  make
+  724  clear
+  725  t
+  726  clear
+  727  tmux
+  728  exit
+  729  shutdown now
+  730  exit
+  731  shutdown now
+  732  clear
+  733  ls
+  734  git status
+  735  clear
+  736  cd AC
+  737  clear
+  738  git status
+  739  cd sesion1-2
+  740  clea
+  741  clear
+  742  ls
+  743  cd mencoder/
+  744  clear
+  745  ls
+  746  ./x264_mt
+  747  time ./x264_mt
+  748  clear
+  749  git status
+  750  git restore bbb480.mp4
+  751  git reset bbb480.mp4
+  752  git statu
+  753  git status
+  754  clear
+  755  git reset --hard bbb480.mp4
+  756  clear
+  757  ls
+  758  clear
+  759  git status
+  760  git checkout -- bbb480.mp4
+  761  git checkout -- ./bbb480.mp4
+  762  cd ..
+  763  clear
+  764  ls
+  765  git status
+  766  cd ..
+  767  clear
+  768  git status
+  769  git add -A
+  770  git status
+  771  git reset HEAD sesion1-2/mencoder
+  772  git status
+  773  clear
+  774  git commit -m "feat: include multithreaded mencoder results"
+  775  clear
+  776  git push
+  777  clear
+  778  ls
+  779  cd sesion1-3
+  780  clear
+  781  tar xvfz sesion1-3.tar.gz
+  782  clear
+  783  ls
+  784  rm sesion1-3.tar.gz 
+  785  clear
+  786  mv sesion1-3/ .
+  787  mv sesion1-3/* .
+  788  clear
+  789  ls
+  790  rm -rf sesion1-3
+  791  clear
+  792  ls
+  793  clear
+  794  vim prog1.c 
+  795  clear
+  796  ls
+  797  clear
+  798  nvim Makefile 
+  799  gcc prog1.c -o prog1
+  800  rm prog1
+  801  time gcc prog1.c -o prog1
+  802  time ./prog1
+  803  clear
+  804  vim prog2.c 
+  805  clear
+  806  vim prog1.c
+  807  clear
+  808  gprof ./prog1 > informe.txt
+  809  gprof
+  810  clear
+  811  ls
+  812  time ./prog1
+  813  clear
+  814  gcc prog1.c -pg -o prog1
+  815  time ./prog1
+  816  ls
+  817  gprof ./prog1 > informe.txt
+  818  nvim gmon.out
+  819  nvim informe.txt 
+  820  clear
+  821  nvim informe.txt
+  822  nvim prog2.c
+  823  clear
+  824  gcc prog2.c -o prog2
+  825  time ./prog2
+  826  clear
+  827  gcc prog2.c -pg -o prog2
+  828  ./prog2
+  829  ls
+  830  gprof ./prog2 > informe2.txt
+  831  clear
+  832  nvim informe2.txt 
+  833  nvim prog2.c
+  834  clear
+  835  gcc -O1 prog1.c -o prog1
+  836  clear
+  837  time ./prog1
+  838  nvim informe2.txt 
+  839  gcc -O2 prog1.c -o prog1
+  840  clear
+  841  ./prog1
+  842  time ./prog1
+  843  $> gcc -O3 prog1.c -o prog1
+  844  gcc -O3 prog1.c -o prog1
+  845  clear
+  846  time ./prog1
+  847  CLEAR
+  848  clear
+  849  $> gcc prog1.c -O3 -pg -o prog1
+  850  $> gcc prog1.c -O3 -pg -o prog1
+  851  $> gcc prog1.c -O3 -pg -o prog1
+  852  r
+  853  clear
+  854  gcc prog1.c -O3 -pg -o prog1
+  855  ./prog1
+  856  gprof ./prog1 > informeO3.txt
+  857  clear
+  858  nvim informeO3.txt 
+  859  gcc prog1.c -O1 -pg -o prog1
+  860  ./prog1
+  861  gprof ./prog1 > informeO1.txt
+  862  clear
+  863  nvim informeO1.txt 
+  864  clear
+  865  gcc prog2.c -O1 -o prog2
+  866  ./prog2
+  867  time ./prog2
+  868  gcc prog2.c -O2 -o prog2
+  869  time ./prog2
+  870  gcc prog2.c -O3 -o prog2
+  871  time ./prog2
+  872  clear
+  873  git status
+  874  cd ..
+  875  clear
+  876  ls
+  877  cd mencoder/
+  878  clear
+  879  ls
+  880  rm bbb1080p.mp4
+  881  rm bbb480.mp4 
+  882  clear
+  883  git status
+  884  rm bbb480_mt.mp4 
+  885  clear
+  886  git status
+  887  git add -A
+  888  clear
+  889  ls
+  890  git status
+  891  git commit -m "feat: include and complete session 3"
+  892  clear
+  893  git push
+  894  clear
+  895  exit
+  896  clear
+  897  ls
+  898  ls -a
+  899  clear
+  900  cd AC
+  901  clear
+  902  ls
+  903  mkdir sesion2-4
+  904  clea
+  905  clear
+  906  ls
+  907  cd sesion2-4
+  908  clear
+  909  ls
+  910  clear
+  911  ls
+  912  nvim program.c
+  913  nvim p1.c
+  914  clera
+  915  clear
+  916  sudo apt install neovim
+  917  clear
+  918  sudo apt update
+  919  clear
+  920  sudo apt install neovim
+  921  clear
+  922  ls
+  923  nvim p1.xc
+  924  nvim p1.c
+  925  clear
+  926  tar xvf sesion2-4.tar.gz 
+  927  clear
+  928  ls
+  929  rm sesion2-4.tar.gz 
+  930  clear
+  931  ls
+  932  mv sesion2-4/* .
+  933  clear
+  934  ls
+  935  rm -rf sesion2-4
+  936  clear
+  937  ls
+  938  rm p1.c
+  939  clear
+  940  vim 2-4mem
+  941  clear
+  942  ls
+  943  vim 2-4mem2.c 
+  944  vim 2-4mem1.c 
+  945  clear
+  946  ls
+  947  gcc -c 2-4mem1.c
+  948  ls
+  949  rm 2-4mem1.o
+  950  clear
+  951  ls
+  952  gcc 2-4mem1.c -o 2-4mem
+  953  ./2-4mem
+  954  rm 2-4mem
+  955  clear
+  956  file 2-4mem
+  957  ls
+  958  file 2-4mem1.c
+  959  clear
+  960  vim p1.c
+  961  gcc p1.c -o p1
+  962  clear
+  963  file p1
+  964  clear
+  965  ./p1
+  966  r
+  967  clear
+  968  ulimit -c unlimited
+  969  vim 2-4priv.c
+  970  gcc 2-4priv.c -o a
+  971  ./a
+  972  ls
+  973  rm p1*
+  974  ls
+  975  ./a
+  976  ls -a
+  977  ulimit -c unlimited
+  978  gcc 2-4priv.c -o a
+  979  ./a
+  980  ls
+  981  ls -a
+  982  gdb a core
+  983  clear
+  984  ls
+  985  ./a
+  986  ls
+  987  gcc -o 2-4priv 2-4priv.c 
+  988  ls
+  989  rm a
+  990  ./2-4priv
+  991  ls
+  992  ulimit -c unlimited
+  993  gcc -o 2-4priv.c
+  994  gcc -c 2-4priv.c -o 2-4priv
+  995  ./2-4priv
+  996  clear
+  997  ls
+  998  ls -l
+  999  ls -a
+ 1000  gcc 2-4priv.c -o 2-4priv
+ 1001  ls
+ 1002  ./2-4priv
+ 1003  ls
+ 1004  ls -a
+ 1005  ulimit -c unlimited
+ 1006  ls
+ 1007  clear
+ 1008  ls
+ 1009  sudo ulimit -c unlimitted
+ 1010  sudo ulimit -c unlimited
+ 1011  sudo ulimit
+ 1012  sudo ulimit -c unlimited
+ 1013  ulimit -c unlimited
+ 1014  sudo ulimit -c unlimited
+ 1015  clear
+ 1016  ls
+ 1017  rm 2-4priv
+ 1018  clear
+ 1019  vim /etc/systemd/system.conf
+ 1020  sudo sysctl -w kernel.core_pattern=core.%e.%p
+ 1021  ls
+ 1022  gcc 2-4priv.c -o 2-4priv
+ 1023  ls
+ 1024  ./2-4priv
+ 1025  ls
+ 1026  rm core.2-4priv.2083 
+ 1027  ls
+ 1028  exit
+ 1029  clear
+ 1030  ls
+ 1031  cd AC
+ 1032  ls
+ 1033  cd sesion2-4
+ 1034  clea
+ 1035  clear
+ 1036  ls
+ 1037  ./2-4priv
+ 1038  ls
+ 1039  clear
+ 1040  vim /etc/systemd/system.conf
+ 1041  sudo vim /etc/systemd/system.conf
+ 1042  clear
+ 1043  ls
+ 1044  ./2-4priv
+ 1045  ls
+ 1046  ulimit -c unlimited
+ 1047  ./2-4priv
+ 1048  ls
+ 1049  sudo vim /etc/systemd/system.conf
+ 1050  clear
+ 1051  ls
+ 1052  ./2-4priv
+ 1053  clear
+ 1054  ls
+ 1055  rm core.*
+ 1056  ls
+ 1057  rm core.*
+ 1058  clear
+ 1059  ./2-4priv
+ 1060  ls
+ 1061  sudo sysctl -w kernel.core_pattern=core
+ 1062  clear
+ 1063  ls
+ 1064  rm core*
+ 1065  clear
+ 1066  ls
+ 1067  ./2-4priv
+ 1068  ls
+ 1069  gdb 2-4priv core 
+ 1070  clear
+ 1071  ls
+ 1072  rm core
+ 1073  gcc -g 2-4priv.c -o 2-4priv
+ 1074  ls
+ 1075  ./2-4priv
+ 1076  ls
+ 1077  clear
+ 1078  ls
+ 1079  ./core
+ 1080  clear
+ 1081  gdb 2-4priv core
+ 1082  rm core
+ 1083  clear
+ 1084  ls
+ 1085  vim 2-4mem1.c
+ 1086  gcc -g 2-4mem1.c -o 2-4mem1
+ 1087  ./2-4mem1
+ 1088  ls
+ 1089  gdb 2-4mem1 core 
+ 1090  vim 2-4mem2.c
+ 1091  clear
+ 1092  gcc -g 2-4mem2.c -o 2-4mem2
+ 1093  clear
+ 1094  ./2-4mem2
+ 1095  clear
+ 1096  rm core
+ 1097  ./2-4mem2
+ 1098  gdb 2-4mem2 core
+ 1099  clear
+ 1100  gdb 2-4mem2 core
+ 1101  clear
+ 1102  dmesg | grep paravirt
+ 1103  dmesg
+ 1104  clear
+ 1105  dmesg | nvim
+ 1106  clear
+ 1107  nvim
+ 1108  dmesg | less
+ 1109  clear
+ 1110  dmesg | grep paravirt
+ 1111  nproc --all
+ 1112  clear
+ 1113  ls
+ 1114  btop
+ 1115  clear
+ 1116  htop
+ 1117  clear
+ 1118  ls
+ 1119  cd ..
+ 1120  ls sesion1-2
+ 1121  ./sesion1-2/bench_fp_mt/bench_fp_mt
+ 1122  clear
+ 1123  ./sesion1-2/bench_fp_mt/bench_fp_mt
+ 1124  clear
+ 1125  ./sesion1-2/bench_fp_mt/bench_fp_mt
+ 1126  exit
+ 1127  shutdown now
+ 1128  clear
+ 1129  sudo shutdown now
+ 1130  clear
+ 1131  shutdown now
+ 1132  clear
+ 1133  cd AC
+ 1134  clear
+ 1135  lñs
+ 1136  ls
+ 1137  cd sesion3-
+ 1138  cd sesion3-4/
+ 1139  clar
+ 1140  ls
+ 1141  clear
+ 1142  ls
+ 1143  gcc 3-4maps.c -o 3-4maps-1
+ 1144  ./3-4maps-1 
+ 1145  clear
+ 1146  vim 3-4maps.c 
+ 1147  clear
+ 1148  gcc -static 3-4maps.c -o 3-4maps-2
+ 1149  clear
+ 1150  ./3-4maps-2 
+ 1151  ls -l
+ 1152  vim 3-4maps.c
+ 1153  clear
+ 1154  gcc 3-4maps.c -o 3-4maps10
+ 1155  ./3-4maps10
+ 1156  clear
+ 1157  vim 3-4maps.c
+ 1158  clear
+ 1159  systemctl status linmem
+ 1160  cd /usr/src/atc/linmem/
+ 1161  cler
+ 1162  clear
+ 1163  ls
+ 1164  sudo make clean
+ 1165  clear
+ 1166  sudo make install
+ 1167  clear
+ 1168  ls
+ 1169  systemctl status linmem
+ 1170  clear
+ 1171  cd
+ 1172  cd AC/
+ 1173  clear
+ 1174  cd sesion3-4
+ 1175  clear
+ 1176  ls
+ 1177  vim 3-4proclinux-
+ 1178  vim 3-4proclinux-1.c 
+ 1179  shutdown now
+ 1180  sudo shutdown now
+ 1181  clear
+ 1182  more /proc/1296/maps
+ 1183  more /proc/1407/maps
+ 1184  clear
+ 1185  cd AC
+ 1186  ce
+ 1187  clear
+ 1188  ls
+ 1189  cd sesion3-4
+ 1190  clear
+ 1191  ls
+ 1192  gcc -Wall 3-4proclinux-2.c 3-4print-pte.c -o 3-4proclinux-2 -lrt -lmem
+ 1193  clear
+ 1194  git status
+ 1195  clear
+ 1196  gcc -Wall 3-4proclinux-2.c 3-4print-pte.c -o 3-4proclinux-2 -lrt -lmem
+ 1197  ./3-4proclinux-2 
+ 1198  ./3-4proclinux-2 ç
+ 1199  ./3-4proclinux-2
+ 1200  clear
+ 1201  ./3-4proclinux-2
+ 1202  clear
+ 1203  ./3-4proclinux-2
+ 1204  clear
+ 1205  cp 3-4proclinux-2.c 3-4proclinux-3.c
+ 1206  clear
+ 1207  vim 3-4proclinux-3.c 
+ 1208  gcc -Wall 3-4proclinux-3.c 3-4print-pte.c -o 3-4proclinux-3 -lrt -lmem
+ 1209  ./3-4proclinux-3
+ 1210  clear
+ 1211  cp 3-4proclinux-3.c 3-4proclinux-4.c
+ 1212  clear
+ 1213  vim 3-4proclinux-4.c 
+ 1214  gcc -Wall 3-4proclinux-4.c 3-4print-pte.c -o 3-4proclinux-4 -lrt -lmem
+ 1215  clear
+ 1216  ./3-4proclinux-4
+ 1217  gcc -Wall 3-4proclinux-4.c 3-4print-pte.c -o 3-4proclinux-4 -lrt
+ 1218  gcc -Wall 3-4proclinux-4.c 3-4print-pte.c -o 3-4proclinux-4 -lrt -lmem
+ 1219  clear
+ 1220  vim 3-4proclinux-5.c
+ 1221  clear
+ 1222  gcc 3-4proclinux-5.c 3-4print-pte.c -o 3-4proclinux-5 -lmem
+ 1223  ./3-4proclinux-
+ 1224  ./3-4proclinux-5
+ 1225  vim 3-4proclinux-5.c
+ 1226  gcc 3-4proclinux-5.c 3-4print-pte.c -o 3-4proclinux-5 -lmem
+ 1227  ./3-4proclinux-5
+ 1228  vim 3-4proclinux-5.c
+ 1229  clear
+ 1230  vim 3-4proclinux-5.c
+ 1231  cler
+ 1232  clear
+ 1233  sudo cat /proc/iomem
+ 1234  vim 3-4kernelpages.c 
+ 1235  clear
+ 1236  gcc 3-4kernelpages.c -o 3-4kernelpages -lmem
+ 1237  ./3-4kernelpages 
+ 1238  sudo ./3-4kernelpages 
+ 1239  vim 3-4kernelpages.c 
+ 1240  clear
+ 1241  cd ..
+ 1242  clear
+ 1243  gs
+ 1244  git status
+ 1245  clear
+ 1246  git add -A
+ 1247  clear
+ 1248  git commit -m "feat: include everything"
+ 1249  clear
+ 1250  gs
+ 1251  git status
+ 1252  clear
+ 1253  git push
+ 1254  clear
+ 1255  exit
+ 1256  cat /proc/1586/maps
+ 1257  cat /proc/1688/maps
+ 1258  clear
+ 1259  cat /proc/1767/maps
+ 1260  clear
+ 1261  cat /proc/1778/maps
+ 1262  clear
+ 1263  shutdown now
+ 1264  clear
+ 1265  ls
+ 1266  ls -a
+ 1267  history | exit
+ 1268  history
+ 1269  clear
+ 1270  cd AC
+ 1271  clear
+ 1272  git status
+ 1273  history > history.txt
